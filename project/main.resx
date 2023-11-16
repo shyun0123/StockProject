@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsN
+        DhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQU
+        FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAsAv8DASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KKKAPD/iR+y1/wsbxpqPiL/hbvxU8L/bPL/wCJT4b8S/ZL
+        CDZGsf7qLym27tm5ueWZj3rmf+GI/wDqvnxw/wDCy/8AtNfS1FO7A+af+GI/+q+fHD/wsv8A7TR/wxH/
+        ANV8+OH/AIWX/wBpr6WoouwPmn/hiP8A6r58cP8Awsv/ALTR/wAMR/8AVfPjh/4WX/2mvpaii7A+af8A
+        hiP/AKr58cP/AAsv/tNH/DEf/VfPjh/4WX/2mvpaii7A+af+GI/+q+fHD/wsv/tNH/DEf/VfPjh/4WX/
+        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
+        /h/OgD//2Q==
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>
+
+시가: 장이 열린 직후의 주식의 가격.
+
+종가: 장이 닫힐 때의 주식의 가격.
+
+고가와 저가: 주식이 하루 중 가장 높던 / 낮던 가격.
+
+
+상한가와 하한가: 각각 위아래로 상승하거나 하락 가능한 최대치에서의 가격을 말한다. 한국에선 전날 종가보다 30%만큼 상승과 하락이 가능하므로 종가*1.3이 상한가고 종가*0.7이 하한가.
+
+시가총액: 발행된 주식 전체의 가격, 즉 (주가) * (주식수)를 말한다.
+
+거래량: 한 기간동안 주식을 사고판 수량을 말한다.
+
+회전율: 한 기간동안 상장되어있는 주식 개수와 매매한 주식 수의 퍼센티지를 비교한 비율이다. 여기서 주식 수란 종목의 개수를 말하는 게 아니라 진짜로 주식의 개수를 세겠다고 말하는 것.
+
+개미(금융) : 비교적 적은 자본으로 투자하는 개인 투자자. 혹은 개인 투자자 자체를 말하기도 한다.</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>주식을 투자할 때 있어 중요한 개념으로 자산배분이 있다.
+자산배분(Asset Allocation)이란 투자금을 주식, 채권, 부동산, 원자재, 외환 등 
+상관관계가 서로 다른 자산으로 구성하는 것을 뜻한다. 즉, 다양한 성격의 자산군에 
+자금을 분산투자해서 리스크을 낮추는 전략이다. 주식에 내 투자금이 100% 집중되어 
+있으면 주식시장이 좋지 않은대세 하락기에는 수익률 방어가 어렵기 때문에 리스크 
+분산을 위해 현금, 채권, 부동산, 원자재, 외환과 같이 리스크를 보완해주는 자산에 
+분산투자 한다는 개념이다.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>회사가 발행한 총 주식 중 소유한 주식의 지분만큼은 "내 회사다!"라는 것이다.
+그래서 회사의 주인인 주주는 회사의 이윤에서 나의 이익을 추구할 권리인 자익권을
+ 가지고, 내 이익을 늘리기 위해서 회사가 돈을 많이 벌게 할 권리인 공익권을 가진다.
+표적으로 배당 청구권이 자익권이고, 주주총회 의결권이 대표적인 공익권이다. 하지만, 
+권리를 가진 만큼 회사의 리스크를 감당할 책임도 주어지기에 회사가 파산하는 경우 
+자신이 출자한 만큼의 자본금(=주식)은 허공으로 사라지는 것이다. 그러므로 주식의
+투자는 신중하고 계획적으로 접근하는것이 중요하다.
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

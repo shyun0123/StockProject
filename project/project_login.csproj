@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01802078-9361-4AE3-888A-7C2305C94FAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>project</RootNamespace>
+    <AssemblyName>project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chart\Bio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\Bio.designer.cs">
+      <DependentUpon>Bio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Eco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\Eco.designer.cs">
+      <DependentUpon>Eco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\EcoY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\EcoY.designer.cs">
+      <DependentUpon>EcoY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\HCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\HCar.designer.cs">
+      <DependentUpon>HCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\HCarY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\HCarY.designer.cs">
+      <DependentUpon>HCarY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\LG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\LG.designer.cs">
+      <DependentUpon>LG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\LGC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\LGC.designer.cs">
+      <DependentUpon>LGC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\LGCY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\LGCY.designer.cs">
+      <DependentUpon>LGCY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\POSCO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\POSCO.designer.cs">
+      <DependentUpon>POSCO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Samsung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\Samsung.designer.cs">
+      <DependentUpon>Samsung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\SamsungU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\SamsungU.designer.cs">
+      <DependentUpon>SamsungU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\SamsungUY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\SamsungUY.designer.cs">
+      <DependentUpon>SamsungUY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\SDSIY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\SDSIY.designer.cs">
+      <DependentUpon>SDSIY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\SK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\SK.designer.cs">
+      <DependentUpon>SK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph.cs" />
+    <Compile Include="login\join.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\join.Designer.cs">
+      <DependentUpon>join.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main\ShareBuyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main\ShareBuyForm.designer.cs">
+      <DependentUpon>ShareBuyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="login\pwchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\pwchange.Designer.cs">
+      <DependentUpon>pwchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\SDSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chart\SDSI.designer.cs">
+      <DependentUpon>SDSI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Chart\Bio.resx">
+      <DependentUpon>Bio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\Eco.resx">
+      <DependentUpon>Eco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\EcoY.resx">
+      <DependentUpon>EcoY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\HCar.resx">
+      <DependentUpon>HCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\HCarY.resx">
+      <DependentUpon>HCarY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\LG.resx">
+      <DependentUpon>LG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\LGC.resx">
+      <DependentUpon>LGC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\LGCY.resx">
+      <DependentUpon>LGCY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\POSCO.resx">
+      <DependentUpon>POSCO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\Samsung.resx">
+      <DependentUpon>Samsung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SamsungU.resx">
+      <DependentUpon>SamsungU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SamsungUY.resx">
+      <DependentUpon>SamsungUY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SDSIY.resx">
+      <DependentUpon>SDSIY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SK.resx">
+      <DependentUpon>SK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\join.resx">
+      <DependentUpon>join.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main\ShareBuyForm.resx">
+      <DependentUpon>ShareBuyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="login\pwchange.resx">
+      <DependentUpon>pwchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\SDSI.resx">
+      <DependentUpon>SDSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\join.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\돋보기.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\돋보기-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
